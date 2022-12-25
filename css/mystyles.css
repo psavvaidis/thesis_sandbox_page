@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.04em;
+}
+
+header{
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 3px 20px #00000099;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+    letter-spacing: -0.05em;
+}
+
+header nav ul{
+    margin-right: 2em;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    text-decoration: none;
+    margin-left: 1.3em;
+}
+
+main{
+    height: 90vh;
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: row;
+}
+
+main h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7em;
+    letter-spacing: -0.03em;
+}
+main right-half{
+    width: 50%;
+
+}
+main p{
+    padding: 8em 2em 0 2em;
+}
+main .buttons{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+main button{
+    margin: 1em;
+    width: 150px;
+    height: 2em;
+    border: none;
+    background-color: rgb(173, 172, 172);
+    transition: 100ms;
+}
+main button:hover{
+    box-shadow: 0px 0px 5px #555;
+    cursor: pointer;
+}
+
+footer{
+    box-shadow: 0px -3px 20px #00000099;
+    padding: 1em 2em;
+}
+footer ul{
+    list-style: none;
+    color: rgb(55, 55, 55);
+}
