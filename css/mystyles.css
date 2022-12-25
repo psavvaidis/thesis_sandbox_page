@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.04em;
 }
 
 header{
@@ -32,3 +34,31 @@ header nav ul li {
     margin-left: 1.3em;
 }
 
+main{
+    height: 100vh;
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: row;
+}
+
+main h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7em;
+    letter-spacing: -0.03em;
+    width: 50%;
+}
+main p{
+    padding: 8em 2em 0 2em;
+    width: 50%;
+}
+
+footer{
+    box-shadow: 0px -3px 20px #00000099;
+    padding: 1em 2em;
+}
+footer ul{
+    list-style: none;
+    color: rgb(55, 55, 55);
+}
