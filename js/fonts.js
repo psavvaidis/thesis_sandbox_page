@@ -3,5 +3,5 @@ $(document).ready(()=>{
 })
 
 const applyFontsTransformations = () =>{
-    // ...
+    $("main p").attr('style','font-family:none !important')
 }
